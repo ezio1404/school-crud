@@ -6,21 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>School CRUD</title>
     <!-- <link rel="stylesheet" href="../node_modules/foundation-sites/dist/css/foundation.css"> -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="view/assets/css/bootstrap.css">
 </head>
 <body>
-    <div class="container-fluid">
-    <table>
-        <thead>
-            <th> </th>
-        </thead>
-        <tbody>
-            <tr>
-            </tr>
-        </tbody>
-    </table>
+
+    <div class="row">
+        <div class="col-8">col-8
+
+        </div>
+        <div class="col-4">
+            
+        </div>
     </div>
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
+    <script src="view/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="view/assets/js/bootstrap.js"></script>
 </body>
 </html>
