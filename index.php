@@ -10,13 +10,8 @@
 </head>
 <body>
 
-    <div class="row">
-        <div class="col-8">col-8
+    <div class="container">
 
-        </div>
-        <div class="col-4">
-            
-        </div>
     </div>
     <script src="view/assets/js/jquery-3.3.1.min.js"></script>
     <script src="view/assets/js/bootstrap.js"></script>
