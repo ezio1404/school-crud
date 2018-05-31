@@ -14,9 +14,9 @@ if($_SESSION){
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 </head>
 <body>
-    <form action="../controller/loginController/logController.php" method="post">
-        <input type="submit" value="logout" name="logout" id="logout" >
-    </form>
+    <?php
+    include 'nav.php';
+    ?>
     <div class="container-fluid">
     <table>
         <thead>
