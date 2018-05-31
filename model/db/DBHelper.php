@@ -24,7 +24,7 @@ Class DBHelper{
         $stmt->execute($data);
         $user=$stmt->fetch(PDO::FETCH_ASSOC);
         if($stmt->rowCount() > 0){
-            $_SESSION['user_info']=$user[$prefix.'lname'].",".$user[$prefix.'fname'];
+            $_SESSION['user_info']=$user[$prefix.'lname'].",".$user[$prefix.'fname']." ".$user[$prefix.'mi'].".";
             $_SESSION['user_id']=$user[$prefix.'idno'];
             $_SESSION['user_type']=$type;
             $flag=true;
